@@ -1,0 +1,7 @@
+HQL - Hibernate Query Language			--> Pojo Class Name
+
+HCQL - Hibernate Criteria Query Language
+
+NativeSQL					--> Table Name
+
+NamedQuery
