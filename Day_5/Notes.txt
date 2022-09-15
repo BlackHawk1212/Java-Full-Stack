@@ -1,0 +1,51 @@
+Difference between Spring MVC and Spring Boot
+
+Spring MVC						Spring Boot
+------------------------				-------------------------
+spring-core						
+spring-context						spring-boot-starter-web
+hibernate-core						
+spring-web						
+spring-webmvc						
+spring-orm
+
+version							pom.xml
+----------------------------------------------------------------------------------
+							Maven Project
+							Spring Initializer
+Maven Project						Spring Starter Project
+
+hibernate
+jdbctemplate
+spring-jdbc
+spring-core,context,web,webmvc				spring-boot-starter-data-jpa/hibernate,spring-data-jpa,jdbctemplate
+hibernate-core
+spring-orm
+
+No Embedded Server					Embedded Server as Tomcat--->spring-boot-starter-web
+							connection-pool
+
+xml or annotation					annotation or application.properties
+
+							server.port=port_number
+
+----------------------
+@Configuration
+@ComponentScan(basepackage="com")			@SpringbootApplication
+@EnableAutoConfiguration
+
+<bean id="" class="">	(xml) ----Instead------------->	@Bean
+
+
+MVC
+com package
+------main
+com.controller
+com.service
+com.dao
+
+
+@RequestMapping(method.post)	-->PostMapping
+@RequestMapping(method.get)	-->GetMapping
+@RequestMapping(method.put)	-->PutMapping
+@RequestMapping(method.delete)	-->DeleteMapping
