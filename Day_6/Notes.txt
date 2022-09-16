@@ -1,0 +1,57 @@
+[
+	{
+		"id": 1,
+		"name": "Nimesh",
+		"age": "nimesh@gmail.com"
+	},
+	{
+		"id": 2,
+		"name": "Anne",
+		"age": "anne@gmail.com"
+	}
+]
+
+Difference between:
+	@RestController
+	@Controller
+
+@Controller					//If you are putting controller annotation
+class RegisterController{
+	public @ResponseBody List<Register> getAllUsers(){	//You have to mention @ResponseBody annotation you trying to return response of json format
+        	List<Register> list = new LinkedList<>();
+        	list.add(new Register(1,"Nimesh","nimesh@gmail.com"));
+        	list.add(new Register(2,"Anne","anne@gmail.com"));
+        	return list;
+    	}
+}		//To avoid this situation we can add @RestController annotation
+
+
+controller ---> service ---> dao ---> database
+
+
+@ResponseBody - User is going to print the data in the form of json (Response form of json)
+@RequestBody - User is going to send the data in the form of json
+
+
+jdbctemplate
+hibernate
+spring data jpa
+
+
+Hibernate								Spring Data JPA
+--------------------------------------------------------------------------------------------------------------------------
+hbm2ddl (Creation)							hbm2ddl (Creation)
+
+save, update, delete							save, update, delete
+
+get, load								findAll, findById
+
+select * from table_name						@Query
+where name='Nimesh' and age=25						findBy, getBy, readBy
+									findByNameAndAge(String name, int age)
+										select * from table_name
+										where name='Nimesh' and age=25
+
+session									CRUDrepo, JPArepo, PagingAndSorting
+									repository --> crudrepo --> jparepo
+									public interface RegisterRepo extends JpaRepository<Register,Integer>
