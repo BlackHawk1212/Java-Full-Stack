@@ -1,0 +1,45 @@
+fetchByNameAndAge(String name, int age)
+
+@Transactional
+@Modifying
+@Query("select reg from Register reg where reg.name=:name and reg.age=:age")	//HQL
+List<Register> fetchByNameAndAge(String name, int age);
+
+@Query("select reg from tbl_register where name=:name and age=:age",NativeQuery=true)	//NativeSQL
+List<Register> fetchByNameAndAge(String name, int age);
+
+@Query("select reg from Register reg where reg.name=:?1 and reg.age=:?2")	//HQL
+List<Register> fetchByNameAndAge(String name, int age);
+
+@Query("select reg from tbl_register where name=:?1 and age=:?2",NativeQuery=true)	//NativeSQL
+List<Register> fetchByNameAndAge(String name, int age);
+
+
+
+//We can use either one of these
+@RequestMapping(RequestMethod.GET)
+@GetMapping				//Most Preffered
+
+
+
+@ControllerAdvice	or	@RestControllerAdvice
+@ExceptionHandler
+
+@ControllerAdvice
+class ExceptionHandling{
+
+	@ExceptionHandler
+	public @ResponseBody employeeNotFound(){	//For ControllerAdvice
+
+	}
+
+}
+
+
+
+@PostConstruct
+CommandLinerRunner or ApplicationRunner interface
+
+run(){
+
+}
