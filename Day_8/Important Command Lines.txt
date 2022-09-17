@@ -1,0 +1,1 @@
+Run specific .js file - Go to your file directory and type 'node js_filename.js'

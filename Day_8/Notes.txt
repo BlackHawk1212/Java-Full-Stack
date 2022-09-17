@@ -1,0 +1,61 @@
+Angular					vs.					React
+---------------------------------------------------------------------------------------------------------------
+Framework									Library
+Component									Component
+
+html										.js or .jsx
+css
+.ts
+.spec
+
+Directly --> http								Axios
+										Virtual DOM (Document Object Model)
+Dependancy Injection
+
+
+
+ES6 Features
+
+
+
+Start React
+//Method 1
+npm install create-react-app
+create-react-app reactapp
+
+//Method 2
+npx create-react-app reactapp	//Use This Method
+
+
+package.json ----> react, react-dom, bootstrap 5.2.0
+node_modules ----> bootstrap ---> js,css
+index.js
+app.js
+
+npm install bootstrap@5.2.0
+
+function comeponent	--> rfce
+class component		--> rce
+
+
+props ---> If you want to transfer data between two component
+
+states ---> 
+
+
+
+MyComponent.js {
+
+	export const MyFunction1=()=>{
+
+	}
+
+	export const MyFunction2=()=>{
+
+	}
+
+	export const MyFunction3=()=>{
+
+	}
+
+}
