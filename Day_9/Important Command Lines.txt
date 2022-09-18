@@ -1,0 +1,8 @@
+To install React-Toastify
+> Go to the project directory, open cmd and type - npm install --save react-toastify
+
+To install Router-dom
+> Go to the project directory, open cmd and type - npm install react-router-dom
+
+To install validator
+> Go to the project directory, open cmd and type - npm install validator

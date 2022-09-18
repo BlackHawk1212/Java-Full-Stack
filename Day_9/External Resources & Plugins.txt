@@ -1,0 +1,9 @@
+External Resources
+
+> W3 School
+> React-Toastify npm
+> React Bootstrap Documentation
+> How to validate an email in reactJS
+> React Components - Material UI
+> React JS + Spring Boot REST API Example (Javaguides.net)
+> React JS + Spring Boot Simple CRUD App | Okta Developer

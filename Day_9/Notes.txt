@@ -1,0 +1,34 @@
+Old Versions
+----------------------------------------------------------
+function RouterDemo() {
+    return (
+        <Router>
+            <Link to="/home">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">contact Us</Link>
+            <Switch>
+                <Route path="/home" component=<HomeComponent /></Route>
+                <Route path="/about" component=<AboutComponent /></Route>
+                <Route path="/contact" component=<ContactComponent /></Route>
+            </Switch>
+        </Router>
+    )
+}
+
+
+Latest Version
+----------------------------------------------------------
+function RouterDemo() {
+    return (
+        <Router>
+            <Link to="/home">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">contact Us</Link>
+            <Routes>
+                <Route path="/home" element={<HomeComponent />}></Route>
+                <Route path="/about" element={<AboutComponent />}></Route>
+                <Route path="/contact" element={<ContactComponent />}></Route>
+            </Routes>
+        </Router>
+    )
+}
