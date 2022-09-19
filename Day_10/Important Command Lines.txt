@@ -1,0 +1,11 @@
+To install Axios
+Go to the file directory, open terminal and type - npm install axios	//To connect backend Spring Boot
+
+To install json-server
+Go to the file directory, open terminal and type - npm install json-server
+To run the json-server - json-server --watch db.json --port=3001
+
+To install material-ui
+Go to the file directory, open terminal and type - npm install @material-ui/core --force
+						 - npm install @mui/icons-material --legacy-peer-deps
+						 - npm install @mui/material @emotion/react @emotion/styled --legacy-peer-deps

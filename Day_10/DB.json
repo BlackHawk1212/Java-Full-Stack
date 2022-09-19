@@ -1,0 +1,44 @@
+[
+
+{
+"id": "1",
+"username": "Nimesh",
+"age": "25",
+"email": "nimeshmendis@gmail.com"
+},
+
+{
+"id": "2",
+"username": "Anna",
+"age": "25",
+"email": "annacal@gmail.com"
+},
+
+{
+"id": "3",
+"username": "Sara",
+"age": "25",
+"email": "sarafernando@gmail.com"
+},
+
+{
+"id": "4",
+"username": "Tom",
+"age": "25",
+"email": "tomcruise@gmail.com"
+},
+
+{
+"id": "IS9YWHn",
+"username": "Chris",
+"age": "30",
+"email": "christucker@gmail.com"
+},
+
+{
+"id": "NqbpgXl",
+"username": "Jackie",
+"age": "30",
+"email": "jackiechan@gmail.com"
+}
+]

@@ -1,0 +1,14 @@
+React --> Class Component --> form --> axios --> Spring Boot Application
+React --> Class Component --> form --> fetch --> Spring Boot Application
+
+
+React --> axios --> http://localhost:8000
+spring boot application --> react --> http://localhost:3000
+
+react --> http://localhost:8000 --> axios file
+spring boot --> http://localhost:3000 --> restcontroller
+
+map --> List<Register>
+async
+
+--> Map Register
